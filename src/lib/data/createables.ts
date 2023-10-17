@@ -2319,6 +2319,16 @@ const Createables: Createable[] = [
 			'Webweaver bow (u)	': 1
 		})
 	},
+	{
+		name: 'Dragon pickaxe',
+		inputItems: new Bank({
+			'Dragon pickaxe (broken)': 1,
+			Coins: 2_500_000
+		}),
+		outputItems: new Bank({
+			'Dragon pickaxe': 1
+		})
+	},
 	...Reverteables,
 	...crystalTools,
 	...ornamentKits,
